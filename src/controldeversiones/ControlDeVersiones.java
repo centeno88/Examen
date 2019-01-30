@@ -15,7 +15,7 @@ public class ControlDeVersiones {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // este es un cambio
+        // otro cambio en el codigo
     }
     
 }
