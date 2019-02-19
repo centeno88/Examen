@@ -3,7 +3,7 @@
 package persona;
 
 /**este codigo define la clase persona y la clase profesor
- *eliminar este segundo parrafo (se me olvido escribirlo inicialmente)
+ *descripcion profesor
  * el codigo ha sido hecho por carlos hernandez en mayo del 2019
  */
 public class Persona {
@@ -22,13 +22,17 @@ public class Persona {
             public class Profesor extends Persona{
                 String srt;
                 int edad;
-              
+                String numeroDeTelefono;
                 list<Prestamo>prestamos;
                 
                 public Profesor (string numeroDeTelefono){
                     super(numeroDeTelefono);
                 }
-           
+            public void printInformacionPersonal(){
+                System.out.println ("Nombre: "+ srt);
+                System.out.println ("Edad: "+ edad);
+                System.out.println ("telefono: "+ this.numeroDeTelefono);
+            }
             public void printTodaInformacion(){
                 System.out.println ("Nombre: "+ srt);
                 System.out.println ("Edad: "+ edad);
