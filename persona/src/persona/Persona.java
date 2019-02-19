@@ -3,7 +3,7 @@
 package persona;
 
 /**este codigo define la clase persona y la clase profesor
- *descripcion profesor
+ *comentario eliminado 
  * el codigo ha sido hecho por carlos hernandez en mayo del 2019
  */
 public class Persona {
