@@ -22,7 +22,7 @@ public class Persona {
             public class Profesor extends Persona{
                 String srt;
                 int edad;
-                String numeroDeTelefono;
+               
                 list<Prestamo>prestamos;
                 
                 public Profesor (string numeroDeTelefono){
