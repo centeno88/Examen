@@ -28,11 +28,7 @@ public class Persona {
                 public Profesor (string numeroDeTelefono){
                     super(numeroDeTelefono);
                 }
-            public void printInformacionPersonal(){
-                System.out.println ("Nombre: "+ srt);
-                System.out.println ("Edad: "+ edad);
-                System.out.println ("telefono: "+ this.numeroDeTelefono);
-            }
+           
             public void printTodaInformacion(){
                 System.out.println ("Nombre: "+ srt);
                 System.out.println ("Edad: "+ edad);
