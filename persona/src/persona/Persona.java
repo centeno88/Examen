@@ -1,13 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ 
 package persona;
 
-/**
- *
- * @author Alumno
+/**este codigo define la clase persona y la clase profesor
+ *eliminar este segundo parrafo (se me olvido escribirlo inicialmente)
+ * el codigo ha sido hecho por carlos hernandez en mayo del 2019
  */
 public class Persona {
     String numeroDeTelefono;
